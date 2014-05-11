@@ -1,0 +1,259 @@
+﻿html, body {
+-ms-content-zooming: none;
+overflow:hidden;
+}
+
+
+.disabletextselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor:default;
+}
+
+#Page1maindiv {
+	position:absolute;
+	height:768px;
+	width:1366px;
+	background-image: url('/www/img/Page1/Untitled-1-Recovered.png');
+}
+
+#page1_brandlogo {
+	height:213px;
+	width:189px;
+	margin-left:50px;
+	margin-top:26px;
+	background-repeat:no-repeat;
+	background-image: url('/www/img/Page1/Untitled-1-Recovered_05.png');
+}
+
+#page1_wewin {
+	height:120px;
+	width:1125px;
+	margin-top:20px;
+	background-image: url('/www/img/Page1/Untitled-1-Recovered_03.png');
+	margin-left:125px;
+}
+#page1_voicedisabled:hover{
+	background-image: url('/www/img/Page1/Untitled-1-Recovered_09_hover.png');
+
+}
+#page1_voicedisabled {
+	
+	margin-top:10px;
+	margin-left:53px;
+	position:absolute;
+	height:250px;
+	width:250px;
+	background-repeat:no-repeat;
+	background-image: url('/www/img/Page1/Untitled-1-Recovered_22.png');
+}
+
+#page1_hearingdisabled {
+	margin-top:10px;
+	margin-left:390px;
+	position:absolute;
+	height:250px;
+	width:250px;
+	background-repeat:no-repeat;
+	background-image: url('/www/img/Page1/Untitled-1-Recovered_17.png');
+
+}
+#page1_hearingdisabled:hover {
+	background-image: url('/www/img/Page1/Untitled-1-Recovered_11_hover.png');
+
+}
+
+#page1_visualdisabled {
+		margin-top:10px;
+	margin-left:723px;
+	position:absolute;
+	height:250px;
+	width:250px;
+	background-repeat:no-repeat;
+	background-image: url('/www/img/Page1/Untitled-1-Recovered_19.png');
+
+}
+#page1_visualdisabled:hover {
+	background-image: url('/www/img/Page1/Untitled-1-Recovered_13_hover.png');
+
+}
+
+#page1_pwd {
+	margin-left:1059px;
+		margin-top:10px;
+	
+	position:absolute;
+	height:250px;
+	width:250px;
+	background-repeat:no-repeat;
+	background-image: url('/www/img/Page1/Untitled-1-Recovered_25.png');
+
+}
+#page1_pwd:hover {
+	background-image: url('/www/img/Page1/Untitled-1-Recovered_15_hover.png');
+
+}
+#page1_seek {
+	margin-left:260px;
+	margin-top:254px;
+	width:820px;
+	height:114px;
+	position:absolute;
+	background-image: url('/www/img/Page1/Untitled-1-Recovered_07.png');
+}
+#page1_howitworks:hover {
+	
+	background-image: url('/www/img/Page1/slide_large.png');
+
+}
+#page1_howitworks {
+	margin-top:-445px;
+	margin-left:731px;
+	height:130px;
+	width:190px;
+	background-repeat:no-repeat;
+	position:absolute;
+	background-image: url('/www/img/Page1/Untitled-1-Recovered_04.png');
+}
+
+#page1_contactus {
+		margin-top:-445px;
+	margin-left:731px;
+	height:130px;
+	width:190px;
+	background-repeat:no-repeat;
+	position:absolute;
+	background-image: url('/www/img/Page1/Untitled-1-Recovered_04.png');
+margin-left:926px;
+}
+#page1_contactus:hover {
+		background-image: url('/www/img/Page1/slide_large.png');
+
+}
+#page1_login:hover{
+	
+}
+#page1_login {
+	
+		margin-top:-445px;
+	margin-left:1120px;
+	height:130px;
+	width:190px;
+	background-repeat:no-repeat;
+	position:absolute;
+	background-image: url('/www/img/Page1/Untitled-1-Recovered_04.png');
+
+}
+#page1_login:hover {
+	background-image: url('/www/img/Page1/slide_large.png');
+	}
+
+#page1_how_text {
+	font-family:'segoe ui';
+	color:white;
+	font-size:23px;
+	margin-top:78px;
+	margin-left:28px;
+}
+
+#page1_contactus_text {
+	font-family:'segoe ui';
+	color:white;
+	font-size:23px;
+	margin-top:78px;
+	margin-left:44px;
+}
+
+#page1_login_text {
+	font-family:'segoe ui';
+	color:white;
+	font-size:23px;
+	margin-top:78px;
+	margin-left:67px;
+}
+
+#page1_facebook {
+	width:160px;
+	height:30px;
+	position:absolute;
+	margin-top:-85px;
+	margin-left:20px;
+    border:none;
+    background-color:transparent;
+	background-image: url('/www/img/Page1/Untitled-1-Recovered_09.png');
+}
+
+#page2_maindiv {
+	position:absolute;
+	width:1366px;
+	height:768px;
+	background-repeat:no-repeat;
+	background-image: url('/www/img/hearingdisabled/bg_2.png');
+}
+
+#page2_brandlogo {
+	background-image: url('/www/img/Page1/Untitled-1-Recovered_05.png');
+	width:123px;
+	height:131px;
+	background-size:contain;
+	margin-left:1202px;
+	margin-top:30px;
+}
+
+#page2_selectajob {
+	width:440px;
+	height:60px;
+	margin-top:-90px;
+	margin-left:440px;
+	background-image: url('/www/img/hearingdisabled/job_select.png');
+}
+#page2_back:hover {
+	opacity:0.6;
+}
+#page2_back {
+	margin-top:-70px;
+	margin-left:80px;
+	width:75px;
+	height:75px;
+	position:absolute;
+	background-size:contain;
+	background-image: url('/www/img/hearingdisabled/back.png');
+}
+
+#page2_contentpart {
+	height: 637px;
+}
+
+#page2_groupcontents {
+	width:1294px;
+	height:507px;
+	margin-top:57px;
+	margin-left:37px;
+}
+
+#page2_itemframe {
+	
+}
+
+#page2_image {
+	margin-top:20px;
+	margin-left:10px;
+	width:304px;
+	height:231px;
+
+}
+#page2_image:hover {
+	opacity:0.5;
+}
+
+
+
+
+
+
+
+

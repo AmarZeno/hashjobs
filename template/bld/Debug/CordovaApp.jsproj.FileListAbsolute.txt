@@ -1,0 +1,30 @@
+C:\Users\Amar Zeno\Downloads\cordova-3.4.0-src\cordova-3.4.0\cordova-windows\cordova-windows\windows8\template\bin\Debug\resources.pri
+C:\Users\Amar Zeno\Downloads\cordova-3.4.0-src\cordova-3.4.0\cordova-windows\cordova-windows\windows8\template\bin\Debug\AppxManifest.xml
+C:\Users\Amar Zeno\Downloads\cordova-3.4.0-src\cordova-3.4.0\cordova-windows\cordova-windows\windows8\template\bin\Debug\CordovaApp.build.appxrecipe
+C:\Users\Amar Zeno\Downloads\cordova-3.4.0-src\cordova-3.4.0\cordova-windows\cordova-windows\windows8\template\bld\Debug\priconfig.xml
+C:\Users\Amar Zeno\Downloads\cordova-3.4.0-src\cordova-3.4.0\cordova-windows\cordova-windows\windows8\template\bld\Debug\priconfig.xml.intermediate
+C:\Users\Amar Zeno\Downloads\cordova-3.4.0-src\cordova-3.4.0\cordova-windows\cordova-windows\windows8\template\bld\Debug\layout.resfiles
+C:\Users\Amar Zeno\Downloads\cordova-3.4.0-src\cordova-3.4.0\cordova-windows\cordova-windows\windows8\template\bld\Debug\layout.resfiles.intermediate
+C:\Users\Amar Zeno\Downloads\cordova-3.4.0-src\cordova-3.4.0\cordova-windows\cordova-windows\windows8\template\bld\Debug\resources.resfiles
+C:\Users\Amar Zeno\Downloads\cordova-3.4.0-src\cordova-3.4.0\cordova-windows\cordova-windows\windows8\template\bld\Debug\resources.resfiles.intermediate
+C:\Users\Amar Zeno\Downloads\cordova-3.4.0-src\cordova-3.4.0\cordova-windows\cordova-windows\windows8\template\bld\Debug\pri.resfiles
+C:\Users\Amar Zeno\Downloads\cordova-3.4.0-src\cordova-3.4.0\cordova-windows\cordova-windows\windows8\template\bld\Debug\pri.resfiles.intermediate
+C:\Users\Amar Zeno\Downloads\cordova-3.4.0-src\cordova-3.4.0\cordova-windows\cordova-windows\windows8\template\bld\Debug\qualifiers.txt
+C:\Users\Amar Zeno\Downloads\cordova-3.4.0-src\cordova-3.4.0\cordova-windows\cordova-windows\windows8\template\bld\Debug\qualifiers.txt.intermediate
+C:\Users\Amar Zeno\Downloads\cordova-3.4.0-src\cordova-3.4.0\cordova-windows\cordova-windows\windows8\template\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Amar Zeno\Downloads\cordova-3.4.0-src\cordova-3.4.0\cordova-windows\cordova-windows\windows8\template\bld\Debug\ProjectArchitectures.txt
+C:\Users\Amar Zeno\Desktop\Angel Hackathon\windows8\template\bin\Debug\resources.pri
+C:\Users\Amar Zeno\Desktop\Angel Hackathon\windows8\template\bin\Debug\AppxManifest.xml
+C:\Users\Amar Zeno\Desktop\Angel Hackathon\windows8\template\bin\Debug\CordovaApp.build.appxrecipe
+C:\Users\Amar Zeno\Desktop\Angel Hackathon\windows8\template\bld\Debug\priconfig.xml
+C:\Users\Amar Zeno\Desktop\Angel Hackathon\windows8\template\bld\Debug\priconfig.xml.intermediate
+C:\Users\Amar Zeno\Desktop\Angel Hackathon\windows8\template\bld\Debug\layout.resfiles
+C:\Users\Amar Zeno\Desktop\Angel Hackathon\windows8\template\bld\Debug\layout.resfiles.intermediate
+C:\Users\Amar Zeno\Desktop\Angel Hackathon\windows8\template\bld\Debug\resources.resfiles
+C:\Users\Amar Zeno\Desktop\Angel Hackathon\windows8\template\bld\Debug\resources.resfiles.intermediate
+C:\Users\Amar Zeno\Desktop\Angel Hackathon\windows8\template\bld\Debug\pri.resfiles
+C:\Users\Amar Zeno\Desktop\Angel Hackathon\windows8\template\bld\Debug\pri.resfiles.intermediate
+C:\Users\Amar Zeno\Desktop\Angel Hackathon\windows8\template\bld\Debug\qualifiers.txt
+C:\Users\Amar Zeno\Desktop\Angel Hackathon\windows8\template\bld\Debug\qualifiers.txt.intermediate
+C:\Users\Amar Zeno\Desktop\Angel Hackathon\windows8\template\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Amar Zeno\Desktop\Angel Hackathon\windows8\template\bld\Debug\ProjectArchitectures.txt

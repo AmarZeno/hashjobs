@@ -1,0 +1,248 @@
+﻿<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Hash Jobs</title>
+		<script type="text/javascript" src="cordova.js"></script>
+        <script src="js/jquery-2.1.0.js"></script>
+        <link href="css/jquery.mobile-1.4.2.min.css" rel="stylesheet" />
+        <script src="js/jquery.mobile-1.4.2.min.js"></script>
+       
+
+        <link href="css/metro-bootstrap.css" rel="stylesheet" />
+        <script src="js/bootstrap.js"></script>
+        
+        <script src="js/knockout-3.1.0.js"></script>
+        <link href="css/index.css" rel="stylesheet" />
+        <script type="text/javascript" src="js/index.js"></script>
+    </head>
+    <body>
+        <div class="app">
+            <div id="Page1" data-role="page" >
+			<div id="Page1maindiv">
+				<div id="page1_brandlogo"></div>
+				<div id="page1_wewin"></div>
+                <a href="#voicedisabledpage" id="page1_voicedisabled"></a>
+                <a href="#hearingdisabledpage" id="page1_hearingdisabled"></a>
+                <a href="#visualdisabledpage" id="page1_visualdisabled"></a>
+                <a href="#pwdpage" id="page1_pwd"></a>
+				<a href="#" id="page1_seek"></a>
+				<div id="page1_howitworks">
+                    <h1 class="disabletextselect" id="page1_how_text">How it works</h1>
+				</div>
+				<div id="page1_contactus">
+                    <h1 class="disabletextselect" id="page1_contactus_text">Contact Us</h1>
+				</div>
+				<div id="page1_login">
+                    <h1 class="disabletextselect" id="page1_login_text">Login</h1>
+					<input type="button" id="page1_facebook"/>
+				</div>
+			</div>
+
+                <script src="js/hammer.js"></script>
+                <script>
+                    var el = document.getElementById('Page1maindiv');
+var hammer = Hammer(el, {
+  drag: false,
+  drag_block_horizontal: false,
+  drag_min_distance: 3,
+  hold: false,
+  release: true,
+  swipe: true,
+  tap: false,
+  touch: false,
+  transform: false
+});
+hammer.on("dragleft", function(event) {
+    console.log(event.gesture.deltaX);
+console.log(event.gesture);
+
+});
+hammer.on("swipeleft",function(event){
+
+    $.mobile.pageContainer.pagecontainer('change', '#hearingdisabledpage', {
+        transition: 'flow',
+        reload: true
+    });
+});
+hammer.on("swiperight",function(event){
+    $.mobile.pageContainer.pagecontainer('change', '#visualdisabledpage', {
+        transition: 'flow',
+      
+        reload: true
+    });
+
+});
+hammer.on("swipeup",function(event){
+    $.mobile.pageContainer.pagecontainer('change', '#pwdpage', {
+        transition: 'flow',
+        reload: true
+    });
+
+});
+hammer.on("swipedown",function(event){
+    
+
+    $.mobile.pageContainer.pagecontainer('change', '#voicedisabledpage', {
+        transition: 'flow',
+        reload: true
+    });
+
+});
+hammer.on("dragright", function(event) {
+    console.log(event.gesture.deltaX);
+});
+
+hammer.on("release", function() {
+    console.log('release');
+});
+
+  </script>
+                <script src="js/jquery-ui.min.js"></script>
+            </div>
+
+           
+            <!--Page 2 begins-->
+            <div id="hearingdisabledpage" data-role="page">
+            
+             <div id="page2_maindiv">
+				<div id="page2_brandlogo">					
+				</div>
+				<div id="page2_selectajob"></div>
+				<a href="#" data-rel="back" id="page2_back"></a>
+				<div id="page2_contentpart">
+					<div id="page2_groupcontents">
+                        <div id="page2_itemframe" data-bind="foreach: hearingdisabled">
+                            <img id="page2_image" data-bind="attr:{src: picture},click:$parent.hearingdisabledclick" draggable="false" />
+                        </div>
+					</div>
+
+					
+				</div>
+				<div id="page2_details">
+						<h1 id="page2detail_title" class="disabletextselect"></h1>
+						<img id="page2detail_image" draggable="false"/>
+						<input type="button" id="apply_button"/>
+					</div>
+					<input type="button" id="page2_hidebutton"/>
+			 </div>
+
+                <link href="css/hearingdisabled.css" rel="stylesheet" />
+                <script src="js/hearingdisabledpage.js"></script>
+            </div>
+
+           <!--page 3 begins-->
+           <div id="visualdisabledpage" data-role="page">
+               <div id="page3_maindiv">
+                   <div id="page3_brandlogo">
+                   </div>
+                   <div id="page3_selectajob"></div>
+                   <a href="#" data-rel="back" id="page3_back"></a>
+                   <div id="page3_contentpart">
+                       <div id="page3_groupcontents">
+                           <div id="page3_itemframe" data-bind="foreach:visualdisabled">
+                               <img id="page3_image" data-bind="attr:{src: picture},click:$parent.visualdisabledclick" draggable="false" />
+                           </div>
+                       </div>
+
+
+                   </div>
+                   <div id="page3_details">
+                       <h1 id="page3detail_title" class="disabletextselect"></h1>
+                       <img id="page3detail_image" draggable="false" />
+                       <input type="button" id="page3apply_button" />
+                   </div>
+                   <input type="button" id="page3_hidebutton" />
+               </div>
+
+               <link href="css/visualdisabledpage.css" rel="stylesheet" />
+               <script src="js/visualdisabledpage.js"></script>
+           </div>
+
+
+            <!--Page 4 begins-->
+            <div id="voicedisabledpage" data-role="page">
+                <div id="page4_maindiv">
+                    <div id="page4_brandlogo">
+                    </div>
+                    <div id="page4_selectajob"></div>
+                    <a href="#" data-rel="back" id="page4_back"></a>
+                    <div id="page4_contentpart">
+                        <div id="page4_groupcontents">
+                            <div id="page4_itemframe" data-bind="foreach:voicedisabled">
+                                <img id="page4_image" data-bind="attr:{src: picture},click:$parent.voicedisabledclick" draggable="false" />
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div id="page4_details">
+                        <h1 id="page4detail_title" class="disabletextselect"></h1>
+                        <img id="page4detail_image" draggable="false" />
+                        <input type="button" id="page4apply_button" />
+                    </div>
+                    <input type="button" id="page4_hidebutton" />
+                </div>
+
+                <link href="css/voicedisabledpage.css" rel="stylesheet" />
+                <script src="js/voicedisabledpage.js"></script>
+
+            </div>
+
+            <div id="pwdpage" data-role="page">
+                <div id="page5_maindiv">
+                    <div id="page5_brandlogo">
+                    </div>
+                    <div id="page5_selectajob"></div>
+                    <a href="#" data-rel="back" id="page5_back"></a>
+                    <div id="page5_contentpart">
+                        <div id="page5_groupcontents">
+                            <div id="page5_itemframe" data-bind="foreach:pwddisabled">
+                                <img id="page5_image" data-bind="attr:{src: picture},click:$parent.pwddisabledclick" draggable="false" />
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div id="page5_details">
+                        <h1 id="page5detail_title" class="disabletextselect"></h1>
+                        <img id="page5detail_image" draggable="false" />
+                        <input type="button" id="page5apply_button" />
+                    </div>
+                    <input type="button" id="page5_hidebutton" />
+                </div>
+
+                <link href="css/pwddisabledpage.css" rel="stylesheet" />
+                <script src="js/pwddisabledpage.js"></script>
+
+            </div>
+
+        </div>
+
+
+
+        
+        
+    </body>
+</html>

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>efffab2f-bfc5-4eda-b545-45ef4995f55a</ProjectGuid>
+    <ExpressionBlendVersion>12.0.41002.1</ExpressionBlendVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <PackageCertificateKeyFile>CordovaApp_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="images\logo.scale-100.png" />
+    <Content Include="images\smalllogo.scale-100.png" />
+    <Content Include="images\splashscreen.scale-100.png" />
+    <Content Include="images\storelogo.scale-100.png" />
+    <Content Include="images\Wide310x150Logo.scale-100.png" />
+    <Content Include="inactivetimerduration.txt" />
+    <Content Include="www\cordova.js" />
+    <Content Include="www\css\hearingdisabled.css" />
+    <Content Include="www\css\index.css" />
+    <Content Include="www\css\jquery.mobile-1.4.2.min.css" />
+    <Content Include="www\css\metro-bootstrap.css" />
+    <Content Include="www\css\metro-bootstrap2.css" />
+    <Content Include="www\css\pwddisabledpage.css" />
+    <Content Include="www\css\visualdisabledpage.css" />
+    <Content Include="www\css\voicedisabledpage.css" />
+    <Content Include="www\img\hearingdisabled\back.png" />
+    <Content Include="www\img\hearingdisabled\bg_2.png" />
+    <Content Include="www\img\hearingdisabled\book.png" />
+    <Content Include="www\img\hearingdisabled\cooking.png" />
+    <Content Include="www\img\hearingdisabled\detail\apply.png" />
+    <Content Include="www\img\hearingdisabled\detail\apply_click.png" />
+    <Content Include="www\img\hearingdisabled\detail\apply_hover.png" />
+    <Content Include="www\img\hearingdisabled\detail\back.png" />
+    <Content Include="www\img\hearingdisabled\detail\back_alt.png" />
+    <Content Include="www\img\hearingdisabled\detail\book.png" />
+    <Content Include="www\img\hearingdisabled\detail\cooking.png" />
+    <Content Include="www\img\hearingdisabled\detail\garnishing.png" />
+    <Content Include="www\img\hearingdisabled\detail\housekeeping.png" />
+    <Content Include="www\img\hearingdisabled\detail\job_info.png" />
+    <Content Include="www\img\hearingdisabled\detail\peeling.png" />
+    <Content Include="www\img\hearingdisabled\detail\polishing.png" />
+    <Content Include="www\img\hearingdisabled\detail\screen3.png" />
+    <Content Include="www\img\hearingdisabled\detail\traffic.png" />
+    <Content Include="www\img\hearingdisabled\garnish.png" />
+    <Content Include="www\img\hearingdisabled\housekeeping.png" />
+    <Content Include="www\img\hearingdisabled\job_select.png" />
+    <Content Include="www\img\hearingdisabled\peeling.png" />
+    <Content Include="www\img\hearingdisabled\polish.png" />
+    <Content Include="www\img\hearingdisabled\stitching.png" />
+    <Content Include="www\img\hearingdisabled\traffic.png" />
+    <Content Include="www\img\logo.png" />
+    <Content Include="www\img\Page1\arrow.png" />
+    <Content Include="www\img\Page1\hearingimpairicon.png" />
+    <Content Include="www\img\Page1\slide_large.png" />
+    <Content Include="www\img\Page1\Untitled-1-Recovered.png" />
+    <Content Include="www\img\Page1\Untitled-1-Recovered11.png" />
+    <Content Include="www\img\Page1\Untitled-1-Recovered_02.png" />
+    <Content Include="www\img\Page1\Untitled-1-Recovered_03.png" />
+    <Content Include="www\img\Page1\Untitled-1-Recovered_04.png" />
+    <Content Include="www\img\Page1\Untitled-1-Recovered_05.png" />
+    <Content Include="www\img\Page1\Untitled-1-Recovered_07.png" />
+    <Content Include="www\img\Page1\Untitled-1-Recovered_09.png" />
+    <Content Include="www\img\Page1\Untitled-1-Recovered_09_hover.png" />
+    <Content Include="www\img\Page1\Untitled-1-Recovered_11_hover.png" />
+    <Content Include="www\img\Page1\Untitled-1-Recovered_13_hover.png" />
+    <Content Include="www\img\Page1\Untitled-1-Recovered_15_hover.png" />
+    <Content Include="www\img\Page1\Untitled-1-Recovered_17.png" />
+    <Content Include="www\img\Page1\Untitled-1-Recovered_19.png" />
+    <Content Include="www\img\Page1\Untitled-1-Recovered_22.png" />
+    <Content Include="www\img\Page1\Untitled-1-Recovered_25.png" />
+    <Content Include="www\img\Page1\Untitled-1-Recovered_32.png" />
+    <Content Include="www\img\smalllogo.png" />
+    <Content Include="www\img\splashscreen.png" />
+    <Content Include="www\img\storelogo.png" />
+    <Content Include="www\index.html" />
+    <Content Include="www\js\hammer.js" />
+    <Content Include="www\js\hearingdisabledpage.js" />
+    <Content Include="www\js\index.js" />
+    <Content Include="www\js\jquery-2.1.0.js" />
+    <Content Include="www\js\jquery-ui.min.js" />
+    <Content Include="www\js\jquery.mobile-1.4.2.min.js" />
+    <Content Include="www\js\jquery.ui.widget.js" />
+    <Content Include="www\js\knockout-3.1.0.js" />
+    <Content Include="www\js\pwddisabledpage.js" />
+    <Content Include="www\js\visualdisabledpage.js" />
+    <Content Include="www\js\voicedisabledpage.js" />
+    <None Include="CordovaApp_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>
